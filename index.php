@@ -32,6 +32,112 @@
           </div>
         </header>
       </article>
+      <section>
+        <header>
+          <h1>Curso de HTML5</h1>
+          <p class="tagline">Confira o que você vai aprender no curso de HTML5</p>
+        </header>
+        <article>
+          <img src="img/01.jpg" alt="[Curso de HTML5 - HTML e CSS]" title="Curso de HTML5 - HTML e CSS"/>
+          <h1>HTML e HTML5!</h1>
+          <p>Aprenda a utilizar o HTML5 do jeito certo! Segmentando seu site e distribuindo o conteúdo de forma otimizada e de ponta a ponta!</p>
+          <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/Y \à\s H:i\h\s'); ?></time> em <b>Matérias</b></span>
+        </article>
+        <article>
+          <img src="img/02.jpg" alt="[Curso de CSS3 - CSS e CSS3]" title="Curso de CSS3 - CSS e CSS3"/>
+          <h1>CSS e CSS3!</h1>
+          <p>Trabalhe com produtividade e qualidade o seu CSS. Aplicando classes coesas e focando no que realmente importa: O conteúdo do site </p>
+          <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/Y \à\s H:i\h\s'); ?></time> em <b>Matérias</b></span>
+        </article>
+        <article>
+          <img src="img/03.jpg" alt="[Curso de jQuery]" title="Curso de jQuery"/>
+          <h1>jQuery!</h1>
+          <p>JavaScript? Claro! Contudo, aqui vamos trabalhar com jQuery. Entender a biblioteca e seu uso padrão. Produtividade é essencial!</p>
+          <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/Y \à\s H:i\h\s'); ?></time> em <b>Matérias</b></span>
+        </article>
+        <article>
+          <img src="img/04.jpg" alt="[Curso de HTML5 - Work Series]" title="Curso de HTML5 - Work Series"/>
+          <h1>Work Series</h1>
+          <p>Terminou o curso de HTML5? Então é hora de se tornar um ninja com a linguagem e aprender técnicas avançadas de otimização!</p>
+          <span><time datetime="<?= date('Y-m-d'); ?>"><?= date('d/m/Y \à\s H:i\h\s'); ?></time> em <b>Matérias</b></span>
+        </article>
+        <footer>
+          <img src="img/05.png" alt="[Confira o curso completo de HTML5 do Jeito Certo]" title="Confira o curso completo de HTML5 do Jeito Certo" />
+          <h1>Curso HTML5 do Jeito Certo!</h1>
+          <p>Aprenda a utilziar todo o poder do HTML5 semântico somando avançadas técnicas de SEO para criar sites altamente lucrativos e que geram resultados rápidos e eficientes</p>
+          <a href="http://www.upinside.com.br/oferta-html5-do-jeito-certo" alt="Conheça a curso HTML5 do jeito certo" target="_blank">Conhecer agora</a>
+        </footer>
+      </section>
+      <section>
+        <header>
+          <h1>Vídeo Aulas</h1>
+          <p class="tagline">Confira algumas vídeo aulas do curso de HTML5!</p>
+        </header>
+        <div>
+          <article>
+            <img src="img/01.jpg" alt="[Curso de HTML5 - HTML e CSS]" title="Curso de HTML5 - HTML e CSS"/>
+            <h1>HTML e HTML5!</h1>
+            <p>Aprenda a utilizar o HTML5 do jeito certo.</p>
+          </article>
+          <article>
+            <img src="img/02.jpg" alt="[Curso de CSS3 - CSS e CSS3]" title="Curso de CSS3 - CSS e CSS3"/>
+            <h1>CSS e CSS3!</h1>
+            <p>Trabalhe com produtividade e qualidade o seu CSS.</p>
+          </article>
+          <article>
+            <img src="img/03.jpg" alt="[Curso de jQuery]" title="Curso de jQuery"/>
+            <h1>jQuery!</h1>
+            <p>JavaScript? Claro! Contudo, aqui vamos trabalhar com jQuery.</p>
+          </article>
+          <article>
+            <img src="img/01.jpg" alt="[Curso de HTML5 - HTML e CSS]" title="Curso de HTML5 - HTML e CSS"/>
+            <h1>HTML e HTML5!</h1>
+            <p>Aprenda a utilizar o HTML5 do jeito certo.</p>
+          </article>
+          <article>
+            <img src="img/02.jpg" alt="[Curso de CSS3 - CSS e CSS3]" title="Curso de CSS3 - CSS e CSS3"/>
+            <h1>CSS e CSS3!</h1>
+            <p>Trabalhe com produtividade e qualidade o seu CSS.</p>
+          </article>
+          <article>
+            <img src="img/03.jpg" alt="[Curso de jQuery]" title="Curso de jQuery"/>
+            <h1>jQuery!</h1>
+            <p>JavaScript? Claro! Contudo, aqui vamos trabalhar com jQuery.</p>
+          </article>
+        </div>
+        <aside>
+          <header>
+            <h1>Comentários</h1>
+          </header>
+          <article>
+            <img src="img/foto.jpg" alt="[Comentário de Gabriel Dantas]" title="Comentário de Gabriel Dantas">
+            <h1>Conetário de <span>Gabriel Dantas</span></h1>
+            <p>O curso foi pensado para levar o aluno do zero ao ninja não somente em HTML. Mas aplicando técnicas avançadas de otimização</p>
+          </article>
+          <article>
+            <img src="img/foto.jpg" alt="[Comentário de Marcos Silva]" title="Comentário de Marcos Silva">
+            <h1>Conetário de <span>Marcos Silva</span></h1>
+            <p>O curso foi pensado para levar o aluno do zero ao ninja não somente em HTML. Mas aplicando técnicas avançadas de otimização</p>
+          </article>
+        </aside>
+      </section>
+      <article>
+        <header>
+          <h1>Entre em contato:</h1>
+          <p class="tagline">este formulário está aqui apenas para estudos do curso HTML5</p>
+        </header>
+        <form action="" method="post">
+          <label>Nome</label>
+          <input type="text" name="nome" title="Informe o seu nome" placeholder="Informe o seu nome" required>
+          <label>E-mail</label>
+          <input type="email" name="email" title="Informe o seu e-mail" placeholder="Informe o seu email" required>
+          <label>Mensagem</label>
+          <textarea name="mensagem" rows="3" title="Digite a sua mensagem" placeholder="Digite a sua mensagem" required></textarea>
+          <img src="img/ajax-loader.gif" alt="[Aguarde, enviando contato]" title="Aguarde, enviando contato">
+          <button>Enviar contato</button>
+          <input type="reset" value="Limpar">
+        </form>
+      </article>
 
     </main>
     <footer>
